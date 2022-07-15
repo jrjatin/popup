@@ -1,0 +1,21 @@
+#box{
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+body{
+    background-color: aqua;
+}
+#box.show{
+    visibility: visible;
+}
+.icon:hover{
+    
+    background-color: red;
+    
+}
+.icon{
+    position: relative;
+    left: 230px;
+}
